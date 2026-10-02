@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Vedran [Last Name]</title>
+  <meta name="description" content="Vedran [Last Name], [PhD candidate] in [Field] at [University]. Research, working papers, and CV.">
+  <style>
+    :root {
+      --ink: #1f2328;
+      --muted: #5c636e;
+      --rule: #d8dce1;
+      --link: #1a4f8b;
+      --bg: #ffffff;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --ink: #e6e8eb;
+        --muted: #a2a9b3;
+        --rule: #3a4048;
+        --link: #8db8ec;
+        --bg: #16191d;
+      }
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--ink);
+      font-family: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+      font-size: 1.0625rem;
+      line-height: 1.6;
+    }
+    main {
+      max-width: 40rem;
+      margin: 0 auto;
+      padding: 3.5rem 1.25rem 4rem;
+    }
+    h1 {
+      font-size: 2rem;
+      font-weight: 600;
+      line-height: 1.2;
+      margin: 0 0 0.25rem;
+    }
+    h2 {
+      font-size: 1.15rem;
+      font-weight: 600;
+      margin: 2.5rem 0 0.75rem;
+      padding-bottom: 0.3rem;
+      border-bottom: 1px solid var(--rule);
+    }
+    p { margin: 0 0 1rem; }
+    a { color: var(--link); text-underline-offset: 0.15em; }
+    a:focus-visible { outline: 2px solid var(--link); outline-offset: 2px; }
+    .affiliation { color: var(--muted); margin-bottom: 1.25rem; }
+    .contact { margin-bottom: 0; }
+    .paper { margin-bottom: 1.5rem; }
+    .paper-title { font-weight: 600; }
+    .paper-meta { color: var(--muted); font-size: 0.95rem; margin: 0.15rem 0 0.4rem; }
+    .paper-links a { margin-right: 1rem; }
+    details { font-size: 0.97rem; }
+    summary { cursor: pointer; color: var(--link); }
+    details p { margin-top: 0.5rem; }
+    footer {
+      margin-top: 3rem;
+      color: var(--muted);
+      font-size: 0.85rem;
+    }
+  </style>
+</head>
+<body>
+  <main>
+
+    <header>
+      <h1>Vedran [Last Name]</h1>
+      <p class="affiliation">[PhD Candidate], [Department]<br>[University]</p>
+      <p class="contact">
+        <a href="mailto:[you@university.edu]">[you@university.edu]</a><br>
+        <a href="cv.pdf">CV</a> &nbsp;|&nbsp;
+        <a href="https://github.com/[yourusername]">GitHub</a> &nbsp;|&nbsp;
+        <a href="https://scholar.google.com/">Google Scholar</a>
+      </p>
+    </header>
+
+    <section>
+      <h2>About</h2>
+      <p>[Two or three sentences on your research: fields, the questions you work on, and the methods or data you use.]</p>
+    </section>
+
+    <section>
+      <h2>Working papers</h2>
+
+      <div class="paper">
+        <div class="paper-title">[Title of the summer paper]</div>
+        <div class="paper-meta">[with Co-author Name] &nbsp;|&nbsp; [Month Year] draft</div>
+        <div class="paper-links">
+          <a href="papers/summer-paper.pdf">PDF</a>
+          <!-- Optional: uncomment once you have a permanent record -->
+          <!-- <a href="https://doi.org/[DOI]">SSRN / OSF</a> -->
+          <!-- <a href="https://github.com/[yourusername]/[replication-repo]">Code</a> -->
+        </div>
+        <details>
+          <summary>Abstract</summary>
+          <p>[Paste the abstract here.]</p>
+        </details>
+      </div>
+
+    </section>
+
+    <section>
+      <h2>Work in progress</h2>
+      <p>[Project title] ([with Co-author])</p>
+    </section>
+
+    <footer>
+      Last updated [Month Year].
+    </footer>
+
+  </main>
+</body>
+</html>
